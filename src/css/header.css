@@ -1,0 +1,11 @@
+@media screen and (max-width: 750px) {
+  .header__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__logo {
+    margin-bottom: 25px;
+  }
+}

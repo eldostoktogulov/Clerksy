@@ -1,0 +1,12 @@
+.partners{
+    padding-bottom: 130px;
+    background-color: $color-bg;
+    &__title{
+        text-align: center;
+    }
+    &__row{
+        margin-top: 75px;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

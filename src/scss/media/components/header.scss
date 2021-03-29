@@ -1,0 +1,10 @@
+@media screen and(max-width:750px) {
+  .header {
+    &__row {
+      flex-direction: column;
+    }
+    &__logo {
+      margin-bottom: 25px;
+    }
+  }
+}

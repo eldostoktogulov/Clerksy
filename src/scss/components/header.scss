@@ -1,0 +1,30 @@
+.header{
+    background-color: $color-green;
+    padding: 20px 0;
+    &__row{
+        @include flex-center(center, space-between);
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        margin-left: 25px;
+        @include font($color-white, 16px, 400, $font-noto);
+        cursor: pointer;
+        &:last-child{
+            background-color:$color-lightGreen;
+            padding: 15px 25px;
+            border-radius: 160px;
+            transition: 0.3s;
+            &:hover{
+                // background-color: rgba($color-lightGreen, $alpha: .7);
+                @include hover($color-lightGreen, 0.7);
+            }
+        }
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+
+}

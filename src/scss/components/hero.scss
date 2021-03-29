@@ -1,0 +1,20 @@
+.hero {
+  background-color: $color-green;
+  height: 85vh;
+  position: relative;
+  &__row {
+    align-items: center;
+  }
+  &__title {
+    @include font($color-white, 48px, 600, $font-jose);
+    margin: 120px 0 20px;
+  }
+  &__description {
+    @include font($color-white, 18px, normal, $font-noto);
+    color: $color-white;
+  }
+  &__img {
+    position: absolute;
+    bottom: 0;
+  }
+}
