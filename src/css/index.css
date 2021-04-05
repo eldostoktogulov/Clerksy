@@ -270,6 +270,16 @@ a {
           align-items: center;
 }
 
+.product {
+  padding: 66px 0 130px;
+  background-color: #163A24;
+}
+
+.product__title {
+  text-align: center;
+  color: #FBFAF7;
+}
+
 @media screen and (max-width: 750px) {
   .col-5, .col-7, .col-6 {
     width: 100%;
